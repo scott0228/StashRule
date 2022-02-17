@@ -1,3 +1,5 @@
+目前用起來，跟 adguard pro 無法共存   
+
 參考資料：   
 https://github.com/Infatuation-Fei/rule/tree/main/Stash.  
 https://github.com/STASH-NETWORKS-LIMITED/stash-example.  
