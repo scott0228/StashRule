@@ -1,0 +1,16 @@
+name: 遠傳心生活取得 token
+desc: https://kinta.ma/surge/modules/fet_get_token.sgmodule  https://github.com/Black-Magic-Lab/Surge
+
+http:
+  mitm:
+    - dspapi.fetnet.net:1443
+  script:
+    - match: ^https\:\/\/dspapi\.fetnet\.net:1443\/dsp\/token-proxy\/super-app\/token$
+      name: fet_token
+      type: response # request / response
+      require-body: true
+      
+script-providers:
+  fet_token:
+    url: https://kinta.ma/surge/scripts/fet_token.js
+    interval: 86400
