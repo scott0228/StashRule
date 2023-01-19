@@ -1,3 +1,4 @@
+#SUBSCRIBED https://raw.githubusercontent.com/scott0228/StashRule/main/遠傳心生活取得token.stoverride
 name: 遠傳心生活取得 token
 desc: https://kinta.ma/surge/modules/fet_get_token.sgmodule  https://github.com/Black-Magic-Lab/Surge
 
